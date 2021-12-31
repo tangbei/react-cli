@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    // 基本目录，用于解析非相对模块名称
+    "baseUrl": "/",
+    "paths": {
+      // 指定要相对于 baseUrl 选项计算别名的路径映射
+      "@/*": ["./*"],
+      "@src": ["src/*"],
+      "@assets": ["src/assets/*"],
+      "@public": ["public/*"],
+    },
+    // 为ES装饰器提案提供实验支持
+    "experimentalDecorators": true
+  },
+  "include": ["./src/**/**/**/*", "./public/**/**/**/*"],
+  "exclude": ["node_module"]
+}

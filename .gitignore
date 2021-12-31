@@ -1,0 +1,10 @@
+.DS_Store
+node_modules
+.idea
+.vscode
+.history
+/dist
+/build
+/library
+/analyzer
+/external
